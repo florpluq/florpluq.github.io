@@ -1,7 +1,9 @@
 /* navigatie */
+
 body {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
+
 .bg-dark.collapse.show {
     background-color: rgb(88, 103, 107);
 }
@@ -33,24 +35,26 @@ body {
 .logo2 {
     width: 45px;
     padding-right: 10px;
-
 }
+
 .type {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     color: white;
     font-size: 21px;
     letter-spacing: 3px;
 }
-/* Pagina Index */
 
+/* Pagina Index */
 
 p {
     color: rgb(88, 103, 107);
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
+
 .groot {
     font-size: 16px;
 }
+
 h2,
 h3 {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -123,7 +127,7 @@ img {
 }
 
 a {
-    color:white;
+    color: white;
     text-decoration-line: none;
 }
 
@@ -183,3 +187,35 @@ strong {
     margin-top: 80px;
 }
 
+@media only screen and (max-width: 600px) {
+    /* Pagina Index */
+    .groot {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    p.color {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    h4.text-white {
+        margin-left: 15px;
+    }
+    li {
+        margin-left: 15px;
+    }
+    /* Algemene pagina ontwerp */
+    .portfolio {
+        margin-top: 2px;
+    }
+    div.col-lg-4.col-sm-12.algemeen {
+        margin-right: 10px;
+    }
+    /* Footer */
+    .logo {
+        margin-left: 150px;
+    }
+    .dicht {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
